@@ -9,6 +9,7 @@ namespace AbstractFactory
     {
         public static void Main(string[] args)
         {
+            System.Console.WriteLine("AbstractFactory");
         }
     }
 }

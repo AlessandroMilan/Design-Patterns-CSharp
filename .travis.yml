@@ -24,4 +24,4 @@ script:
   dotnet build
 
 after_success:
-- dotnet test tests\AbstractFactoryTest
+- dotnet test

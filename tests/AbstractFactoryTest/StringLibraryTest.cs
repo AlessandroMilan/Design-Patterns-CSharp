@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace AbstractFactory.Test
+namespace AbstractFactory.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class StringLibraryTest
     {
         [TestMethod]
         public void TestStartsWithUpper()

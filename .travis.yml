@@ -22,4 +22,4 @@ before_script:
 
 script:
  - dotnet build
- - dotnet test
+ - dotnet test tests\AbstractFactoryTest\AbstractFactoryTest.csproj

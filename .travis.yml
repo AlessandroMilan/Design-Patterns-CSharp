@@ -17,9 +17,6 @@ addons:
     - dotnet-hostfxr-1.0.1
     - dotnet-sharedframework-microsoft.netcore.app-1.1.2
 
-before_script:
-  dotnet restore
-
 script:
  - dotnet build
  - dotnet test tests/AbstractFactoryTest/AbstractFactoryTest.csproj

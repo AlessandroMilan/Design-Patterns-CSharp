@@ -22,6 +22,4 @@ before_script:
 
 script:
   dotnet build
-
-after_success:
-- dotnet test
+  dotnet test

@@ -1,4 +1,4 @@
-[![Build Status]((https://travis-ci.org/AlessandroMilan/Design-Patterns-CSharp.svg?branch=master)](https://travis-ci.org/AlessandroMilan/Design-Patterns-CSharp)
+[![Build Status](https://travis-ci.org/AlessandroMilan/Design-Patterns-CSharp.svg?branch=master)](https://travis-ci.org/AlessandroMilan/Design-Patterns-CSharp)
 # Design-Patterns-CSharp
 Design Patterns in C#.
 

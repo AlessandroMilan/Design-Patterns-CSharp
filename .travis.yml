@@ -19,4 +19,4 @@ addons:
 
 script:
  - dotnet build
- - dotnet test tests/AbstractFactoryTest/AbstractFactoryTest.csproj
+ - dotnet test tests/FactoryMethodTest/FactoryMethodTest.csproj

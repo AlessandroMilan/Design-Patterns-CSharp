@@ -2,37 +2,16 @@
 
 namespace FactoryMethod.Creator
 {
-    public class ImageReaderCreator
+    public abstract class ImageReaderCreator
     {
-        public enum ImageFormat
+        public ImageReader PrepareImageReader(string source)
         {
-            JPEG,
-            GIF
-        }
-
-        public ImageReader PrepareImageReader(string source, ImageFormat format)
-        {
-            ImageReader imageReader = CreateImageReader(format);
+            ImageReader imageReader = CreateImageReader();
 
             imageReader.SetImageSource(source);
             return imageReader;
         }
 
-        protected ImageReader CreateImageReader(ImageFormat format)
-        {
-            ImageReader imageReader;
-
-            switch (format)
-            {
-                case ImageFormat.GIF:
-                    imageReader = new GifReader();
-                    break;
-                case ImageFormat.JPEG:
-                default:
-                    imageReader = new JpegReader();
-                    break;
-            }
-            return imageReader;
-        }
+        protected abstract ImageReader CreateImageReader();
     }
 }

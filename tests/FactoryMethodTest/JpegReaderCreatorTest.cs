@@ -10,8 +10,8 @@ namespace FactoryMethodTest
         [TestMethod]
         public void ImageReaderCreatedMustBeInstanceOfJpegReader()
         {
-            ImageReaderCreator imageReaderCreator = new ImageReaderCreator();
-            ImageReader imageReader = imageReaderCreator.PrepareImageReader("/Home/Design-Patterns-CSharp", ImageReaderCreator.ImageFormat.JPEG);
+            ImageReaderCreator imageReaderCreator = new JpegReaderCreator();
+            ImageReader imageReader = imageReaderCreator.PrepareImageReader("/Home/Design-Patterns-CSharp");
 
             // Must be a JPEG image.
             Assert.AreEqual("/Home/Design-Patterns-CSharp.JPEG", imageReader.Source);

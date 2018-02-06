@@ -10,8 +10,8 @@ namespace FactoryMethodTest
         [TestMethod]
         public void ImageReaderCreatedMustBeInstanceOfGifReader()
         {
-            ImageReaderCreator imageReaderCreator = new GifReaderCreator();
-            ImageReader imageReader = imageReaderCreator.PrepareImageReader("/Home/Design-Patterns-CSharp");
+            ImageReaderCreator imageReaderCreator = new ImageReaderCreator();
+            ImageReader imageReader = imageReaderCreator.PrepareImageReader("/Home/Design-Patterns-CSharp", ImageReaderCreator.ImageFormat.GIF);
 
             // Must be a GIF image.
             Assert.AreEqual("/Home/Design-Patterns-CSharp.GIF", imageReader.Source);

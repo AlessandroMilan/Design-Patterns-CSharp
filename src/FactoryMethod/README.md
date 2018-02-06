@@ -13,7 +13,8 @@ An increasingly popular definition of factory method is: a static method of a cl
 
 ![Factory Method 1](Factory_Method_1.svg)
 
-The classes and objects participating in this pattern are: 
+## Prticipants
+
 * Product
     * defines the interface of objects the factory method creates
 * ConcreteProduct
@@ -28,5 +29,5 @@ The classes and objects participating in this pattern are:
 
 ---
 ## References
-* [Source Making - Design Patterns](https://sourcemaking.com/design_patterns)
+* [Source Making - Design Patterns](https://sourcemaking.com/design_patterns/factory_method)
 * [dofactory](http://www.dofactory.com/net/factory-method-design-pattern)

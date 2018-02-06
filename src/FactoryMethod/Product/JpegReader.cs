@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FactoryMethod.Product
+﻿namespace FactoryMethod.Product
 {
     class JpegReader : ImageReader
     {

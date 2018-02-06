@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using FactoryMethod.Product;
+﻿using FactoryMethod.Product;
 
 namespace FactoryMethod.Creator
 {

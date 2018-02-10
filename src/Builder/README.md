@@ -21,7 +21,7 @@ An application needs to create the elements of a complex aggregate. The specific
     * Represents the complex object under construction. ConcreteBuilder builds the product's internal representation and defines the process by which it's assembled
     * Includes classes that define the constituent parts, including interfaces for assembling the parts into the final result
 
-![Builder](BUilder.jpg)
+![Builder](Builder.jpg)
 
 ---
 ### References

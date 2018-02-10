@@ -13,7 +13,7 @@ An increasingly popular definition of factory method is: a static method of a cl
 
 ![Factory Method 1](Factory_Method_1.svg)
 
-### Prticipants
+### Participants
 
 * Product
     * defines the interface of objects the factory method creates

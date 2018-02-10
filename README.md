@@ -10,7 +10,7 @@ It is a description or template for how to solve a problem that can be used in m
 ### Types of Design Patterns
 #### Creational patterns
 - [Abstract Factory](/src/AbstractFactory)
-- Builder
+- [Builder](/src/Builder)
 - [Factory Method](/src/FactoryMethod)
 - Object Pool
 - Prototype

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C2AAE0EE-0E34-412C-80F1-D2F3C9CC3548}"
 EndProject
@@ -15,11 +15,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A084EF9B-A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "src\FactoryMethod\FactoryMethod.csproj", "{99F9EE7A-67D0-486B-B284-EB3E563D6B9C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodTest", "tests\FactoryMethodTest\FactoryMethodTest.csproj", "{04E0C58F-0CE0-47CC-8641-7046536D2D66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodTest", "test\FactoryMethodTest\FactoryMethodTest.csproj", "{04E0C58F-0CE0-47CC-8641-7046536D2D66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "src\AbstractFactory\AbstractFactory.csproj", "{9F87F59E-2C9F-4803-9BC3-6554EA2C5670}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "src\AbstractFactory\AbstractFactory.csproj", "{9F87F59E-2C9F-4803-9BC3-6554EA2C5670}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryTest", "tests\AbstractFactoryTest\AbstractFactoryTest.csproj", "{F2B4FEB2-6B81-47FA-9C0C-E72721C73717}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryTest", "test\AbstractFactoryTest\AbstractFactoryTest.csproj", "{F2B4FEB2-6B81-47FA-9C0C-E72721C73717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "src\Builder\Builder.csproj", "{C86F9913-C0F8-4D06-B655-011B6D0CAACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderTest", "test\BuilderTest\BuilderTest.csproj", "{D32C4728-511B-409D-BF39-B3DE14A84730}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,14 @@ Global
 		{F2B4FEB2-6B81-47FA-9C0C-E72721C73717}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2B4FEB2-6B81-47FA-9C0C-E72721C73717}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2B4FEB2-6B81-47FA-9C0C-E72721C73717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86F9913-C0F8-4D06-B655-011B6D0CAACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86F9913-C0F8-4D06-B655-011B6D0CAACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86F9913-C0F8-4D06-B655-011B6D0CAACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86F9913-C0F8-4D06-B655-011B6D0CAACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32C4728-511B-409D-BF39-B3DE14A84730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32C4728-511B-409D-BF39-B3DE14A84730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32C4728-511B-409D-BF39-B3DE14A84730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32C4728-511B-409D-BF39-B3DE14A84730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +64,11 @@ Global
 		{04E0C58F-0CE0-47CC-8641-7046536D2D66} = {A084EF9B-AC04-475B-93C6-F731BB644E05}
 		{9F87F59E-2C9F-4803-9BC3-6554EA2C5670} = {C2AAE0EE-0E34-412C-80F1-D2F3C9CC3548}
 		{F2B4FEB2-6B81-47FA-9C0C-E72721C73717} = {A084EF9B-AC04-475B-93C6-F731BB644E05}
+		{C86F9913-C0F8-4D06-B655-011B6D0CAACE} = {C2AAE0EE-0E34-412C-80F1-D2F3C9CC3548}
+		{D32C4728-511B-409D-BF39-B3DE14A84730} = {A084EF9B-AC04-475B-93C6-F731BB644E05}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36F8FB92-8291-4ACD-8E18-C71E222E6242}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36F8FB92-8291-4ACD-8E18-C71E222E6242}

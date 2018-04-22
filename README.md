@@ -12,7 +12,7 @@ It is a description or template for how to solve a problem that can be used in m
 - [Abstract Factory](/src/AbstractFactory)
 - [Builder](/src/Builder)
 - [Factory Method](/src/FactoryMethod)
-- Object Pool
+- [Object Pool](/src/ObjectPool)
 - Prototype
 - Singleton
 #### Structural patterns

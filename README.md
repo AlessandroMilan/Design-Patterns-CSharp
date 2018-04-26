@@ -14,7 +14,7 @@ It is a description or template for how to solve a problem that can be used in m
 - [Factory Method](/src/FactoryMethod)
 - [Object Pool](/src/ObjectPool)
 - Prototype
-- Singleton
+- [Singleton](/src/Singleton)
 #### Structural patterns
 - Adapter
 - Bridge

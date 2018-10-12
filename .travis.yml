@@ -22,3 +22,4 @@ script:
  - dotnet test test/FactoryMethodTest/FactoryMethodTest.csproj
  - dotnet test test/AbstractFactoryTest/AbstractFactoryTest.csproj
  - dotnet test test/BuilderTest/BuilderTest.csproj
+ - dotnet test test/PrototypeTest/PrototypeTest.csproj
